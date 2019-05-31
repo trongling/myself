@@ -1,0 +1,1 @@
+# Encoding: utf-8# Date: 2019/5/30# Name: 仲玲import timeclass Time_Util():		def day_time(self):		day_time = time.strftime("%y_%m_%d")		return day_time		def full_time(self):		full_time = time.strftime("%y_%m_%d_%H_%M_%S")		return full_time		def curr_time(self):		curr_time = time.strftime("%H_%M_%S")		return curr_time
